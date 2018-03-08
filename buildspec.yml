@@ -8,11 +8,9 @@ artifacts:
   files:
     - index.html
     - php/*
-    - styles/minilio.css
-    - img/light-gallery/*
-    - img/social-icons/*
-    - img/theme-icons/*
+    - styles/*
     - img/*
     - fonts/*
     - js/*
-    - work/*
+    - work/a/*
+    - work/b/*
