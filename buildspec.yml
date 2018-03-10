@@ -9,8 +9,11 @@ artifacts:
     - index.html
     - css/*
     - fonts/*
+    - img/light-gallery/*
+    - img/social-icons/*
+    - img/theme-icons/*
     - img/*
     - js/*
     - php/*
-    - work/*
+    - work/**/*
   discard-paths: yes
