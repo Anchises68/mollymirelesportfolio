@@ -10,4 +10,4 @@ artifacts:
     - css/*
     - img/**/*
     - work/**/*
-    - php/*
+    - php/mailer.php
