@@ -10,3 +10,4 @@ artifacts:
     - css/*
     - img/**/*
     - work/**/*
+    - php/*
