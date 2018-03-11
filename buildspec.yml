@@ -9,3 +9,6 @@ artifacts:
     - index.html
     - css/*
     - img/*
+    - img/light-gallery/*
+    - img/social-icons/*
+    - img/theme-icons/*
