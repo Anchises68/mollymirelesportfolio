@@ -7,6 +7,6 @@ phases:
 artifacts:
   files:
     - index.html
-    - css/*
+    - css/**/*
     - img/**/*
     - work/**/*
