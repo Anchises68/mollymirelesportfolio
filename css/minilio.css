@@ -82,7 +82,7 @@
         transform: translate(0, -50%);
     }
     .intro span {
-        color: #ff6347;
+        color: #263979;
     }
     .intro-name {
         margin: 0;
@@ -103,7 +103,7 @@
         transform: translate(0, -50%);
     }
     .intro-name span {
-        color: #ff6347;
+        color: #263979;
         font-size: 5.4vw;
         font-weight: bold;
     }
@@ -126,7 +126,7 @@
         padding: 0;
         width: 12vw;
         height: 12vw;
-        fill: #ff6347;
+        fill: #263979;
     }
     #menu-toggler {
         display: none;
@@ -334,7 +334,7 @@
     .popup-content h1 {
         font-size: 12vw;
         font-weight: 200;
-        color: #ff6347;
+        color: #263979;
         text-align: center;
     }
     .popup-content h3 {
@@ -348,7 +348,7 @@
         color: #000000;
     }
     .popup-content span {
-        color: #ff6347;
+        color: #263979;
     }
     /***************/
     /*Popup Box End*/
@@ -407,7 +407,7 @@
         height: 16vw;
         margin: 0;
         padding: 0;
-        fill: #ff6347;
+        fill: #263979;
         position: relative;
         left: 50%;
         -webkit-transform: translate(-50%, 0);
@@ -496,7 +496,7 @@
         padding: 0;
         width: 16vw;
         height: 16vw;
-        fill: #ff6347;
+        fill: #263979;
         position: relative;
         left: 50%;
         -webkit-transform: translate(-50%, 0);
@@ -511,7 +511,7 @@
     }
     .contact-details div a h3:hover,
     .contact-details div a:hover {
-        color: #ff6347;
+        color: #263979;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -587,9 +587,9 @@
     }
     .style-1 input[type="text"]:focus,
     .style-1 input[type="text"].focus {
-        color: #ff6347;
+        color: #263979;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #263979;
     }
     .style-2 {
         color: #000000;
@@ -606,9 +606,9 @@
     }
     .style-2:focus,
     .style-2.focus {
-        color: #ff6347;
+        color: #263979;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #263979;
     }
     form input,
     input[placeholder],
@@ -621,13 +621,13 @@
         margin: 4vw 0;
         padding: 6vw;
         width: 100%;
-        background-color: #ff6347;
-        border: solid 2px #ff6347;
+        background-color: #263979;
+        border: solid 2px #263979;
         outline: 0;
     }
     .send-button:active {
         background-color: #ffffff;
-        color: #ff6347;
+        color: #263979;
     }
     /*Form End*/
     /*Form End*/
@@ -690,7 +690,7 @@
         right: 5vw;
         bottom: 5vw;
         background-color: #ffffff;
-        color: #ff6347;
+        color: #263979;
         z-index: 20;
     }
     .project-title-description {
@@ -839,7 +839,7 @@
         transform: translate(0, -50%);
     }
     .intro span {
-        color: #ff6347;
+        color: #263979;
     }
     .intro-name {
         margin: 0;
@@ -860,7 +860,7 @@
         transform: translate(0, -50%);
     }
     .intro-name span {
-        color: #ff6347;
+        color: #263979;
         font-size: 5.4vw;
         font-weight: bold;
     }
@@ -870,7 +870,7 @@
         padding: 0;
         width: 10vw;
         height: 10vw;
-        fill: #ff6347;
+        fill: #263979;
         position: absolute;
         right: 1.8vw;
         top: 50%;
@@ -1086,7 +1086,7 @@
     .popup-content h1 {
         font-size: 10vw;
         font-weight: 200;
-        color: #ff6347;
+        color: #263979;
         text-align: center;
     }
     .popup-content h3 {
@@ -1100,7 +1100,7 @@
         color: #000000;
     }
     .popup-content span {
-        color: #ff6347;
+        color: #263979;
     }
     /***************/
     /*Popup Box End*/
@@ -1159,7 +1159,7 @@
         height: 16vw;
         margin: 0;
         padding: 0;
-        fill: #ff6347;
+        fill: #263979;
         position: relative;
         left: 50%;
         -webkit-transform: translate(-50%, 0);
@@ -1244,7 +1244,7 @@
         padding: 0;
         width: 16vw;
         height: 16vw;
-        fill: #ff6347;
+        fill: #263979;
         position: relative;
         left: 50%;
         -webkit-transform: translate(-50%, 0);
@@ -1259,7 +1259,7 @@
     }
     .contact-details div a h3:hover,
     .contact-details div a:hover {
-        color: #ff6347;
+        color: #263979;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -1335,9 +1335,9 @@
     }
     .style-1 input[type="text"]:focus,
     .style-1 input[type="text"].focus {
-        color: #ff6347;
+        color: #263979;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #263979;
     }
     .style-2 {
         color: #000000;
@@ -1354,9 +1354,9 @@
     }
     .style-2:focus,
     .style-2.focus {
-        color: #ff6347;
+        color: #263979;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #263979;
     }
     form input,
     input[placeholder],
@@ -1369,13 +1369,13 @@
         margin: 4vw 0;
         padding: 6vw;
         width: 100%;
-        background: #ff6347;
-        border: solid 2px #ff6347;
+        background: #263979;
+        border: solid 2px #263979;
         outline: 0;
     }
     .send-button:active {
         background-color: #ffffff;
-        color: #ff6347;
+        color: #263979;
     }
     /*Form End*/
     /*Form End*/
@@ -1440,7 +1440,7 @@
         right: 3vw;
         bottom: 3vw;
         background-color: #ffffff;
-        color: #ff6347;
+        color: #263979;
         z-index: 20;
     }
     .project-title-description {
@@ -1574,7 +1574,7 @@
         right: 2vw;
     }
     .intro span {
-        color: #ff6347;
+        color: #263979;
     }
     .intro-name {
         max-width: 80%;
@@ -1587,7 +1587,7 @@
         right: 2vw;
     }
     .intro-name span {
-        color: #ff6347;
+        color: #263979;
         font-size: 2.6vw;
         font-weight: bold;
     }
@@ -1620,8 +1620,8 @@
         outline: 0;
     }
     .navbar ul a:hover {
-        color: #ff6347;
-        border-bottom: 1px dotted #ff6347;
+        color: #263979;
+        border-bottom: 1px dotted #263979;
     }
     .important-social-links {
         max-width: 80%;
@@ -1661,7 +1661,7 @@
     }
     .important-social-icons a:hover,
     svg:hover {
-        fill: #ff6347;
+        fill: #263979;
     }
     .copyright {
         margin: 0;
@@ -1740,7 +1740,7 @@
         transition: all 0.3s ease-in-out;
     }
     .popup .close:hover {
-        fill: #ff6347;
+        fill: #263979;
     }
     .popup .button {
         display: inline-block;
@@ -1765,9 +1765,9 @@
         transition: all 0.3s ease-in-out;
     }
     .popup .button:hover {
-        background-color: #ff6347;
+        background-color: #263979;
         color: #ffffff;
-        border-color: #ff6347;
+        border-color: #263979;
     }
     .popup-content {
         width: 100%;
@@ -1776,7 +1776,7 @@
     .popup-content h1 {
         font-size: 5.8vw;
         font-weight: 200;
-        color: #ff6347;
+        color: #263979;
         text-align: center;
     }
     .popup-content h3 {
@@ -1790,7 +1790,7 @@
         color: #000000;
     }
     .popup-content span {
-        color: #ff6347;
+        color: #263979;
     }
     /***************/
     /*Popup Box End*/
@@ -1851,7 +1851,7 @@
     .what-i-do div svg {
         width: 8vw;
         height: 8vw;
-        fill: #ff6347;
+        fill: #263979;
         position: relative;
         left: 50%;
         -webkit-transform: translate(-50%, 0);
@@ -1938,7 +1938,7 @@
     .contact-details div svg {
         width: 8vw;
         height: 8vw;
-        fill: #ff6347;
+        fill: #263979;
         position: relative;
         left: 50%;
         -webkit-transform: translate(-50%, 0);
@@ -1953,7 +1953,7 @@
     }
     .contact-details div a h3:hover,
     .contact-details div a:hover {
-        color: #ff6347;
+        color: #263979;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -2001,7 +2001,7 @@
         transition: all 0.3s ease-in-out;
     }
     .social a svg:hover {
-        fill: #ff6347;
+        fill: #263979;
     }
     /*Form Start*/
     /*Form Start*/
@@ -2031,9 +2031,9 @@
     }
     .style-1 input[type="text"]:focus,
     .style-1 input[type="text"].focus {
-        color: #ff6347;
+        color: #263979;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #263979;
     }
     .style-2 {
         color: #000000;
@@ -2050,9 +2050,9 @@
     }
     .style-2:focus,
     .style-2.focus {
-        color: #ff6347;
+        color: #263979;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #263979;
     }
     form input,
     input[placeholder],
@@ -2061,12 +2061,12 @@
         font-weight: normal;
     }
     .send-button {
-        color: #ff6347;
+        color: #263979;
         margin: 3vw 0;
         padding: 2.4vw;
         width: 100%;
         background: rgba(255, 255, 255, 0);
-        border: solid 2px #ff6347;
+        border: solid 2px #263979;
         -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out;
@@ -2075,12 +2075,12 @@
     }
     .send-button:hover,
     .send-button.hover {
-        background-color: #ff6347;
+        background-color: #263979;
         cursor: pointer;
         color: #ffffff;
     }
     .send-button:active {
-        background-color: #ff6347;
+        background-color: #263979;
         color: #ffffff;
     }
     /*Form End*/
@@ -2158,7 +2158,7 @@
         right: 1vw;
         bottom: 1vw;
         background-color: #ffffff;
-        color: #ff6347;
+        color: #263979;
         z-index: 20;
     }
     .project-title-description {
@@ -2292,7 +2292,7 @@
         right: 1.6vw;
     }
     .intro span {
-        color: #ff6347;
+        color: #263979;
     }
     .intro-name {
         max-width: 80%;
@@ -2305,7 +2305,7 @@
         right: 1.6vw;
     }
     .intro-name span {
-        color: #ff6347;
+        color: #263979;
         font-size: 2vw;
         font-weight: bold;
     }
@@ -2333,8 +2333,8 @@
         transition: all 0.3s ease-in-out;
     }
     .navbar ul a:hover {
-        color: #ff6347;
-        border-bottom: 1px dotted #ff6347;
+        color: #263979;
+        border-bottom: 1px dotted #263979;
     }
     #about-closed:target,
     #contact-closed:target,
@@ -2379,7 +2379,7 @@
     }
     .important-social-icons a:hover,
     svg:hover {
-        fill: #ff6347;
+        fill: #263979;
     }
     .copyright {
         margin: 0;
@@ -2470,7 +2470,7 @@
         transition: all 0.3s ease-in-out;
     }
     .popup .close:hover {
-        fill: #ff6347;
+        fill: #263979;
     }
     .popup .button {
         display: inline-block;
@@ -2495,9 +2495,9 @@
         transition: all 0.3s ease-in-out;
     }
     .popup .button:hover {
-        background-color: #ff6347;
+        background-color: #263979;
         color: #ffffff;
-        border-color: #ff6347;
+        border-color: #263979;
     }
     .popup-content {
         width: 100%;
@@ -2506,7 +2506,7 @@
     .popup-content h1 {
         font-size: 5vw;
         font-weight: 200;
-        color: #ff6347;
+        color: #263979;
         text-align: center;
     }
     .popup-content h3 {
@@ -2520,7 +2520,7 @@
         color: #000000;
     }
     .popup-content span {
-        color: #ff6347;
+        color: #263979;
     }
     /***************/
     /*Popup Box End*/
@@ -2581,7 +2581,7 @@
     .what-i-do div svg {
         width: 8vw;
         height: 8vw;
-        fill: #ff6347;
+        fill: #263979;
         position: relative;
         left: 50%;
         -webkit-transform: translate(-50%, 0);
@@ -2668,7 +2668,7 @@
     .contact-details div svg {
         width: 8vw;
         height: 8vw;
-        fill: #ff6347;
+        fill: #263979;
         position: relative;
         left: 50%;
         -webkit-transform: translate(-50%, 0);
@@ -2683,7 +2683,7 @@
     }
     .contact-details div a h3:hover,
     .contact-details div a:hover {
-        color: #ff6347;
+        color: #263979;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -2731,7 +2731,7 @@
         transition: all 0.3s ease-in-out;
     }
     .social a svg:hover {
-        fill: #ff6347;
+        fill: #263979;
     }
     /*Form Start*/
     /*Form Start*/
@@ -2761,9 +2761,9 @@
     }
     .style-1 input[type="text"]:focus,
     .style-1 input[type="text"].focus {
-        color: #ff6347;
+        color: #263979;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #263979;
     }
     .style-2 {
         color: #000000;
@@ -2780,9 +2780,9 @@
     }
     .style-2:focus,
     .style-2.focus {
-        color: #ff6347;
+        color: #263979;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #263979;
     }
     form input,
     input[placeholder],
@@ -2791,12 +2791,12 @@
         font-weight: normal;
     }
     .send-button {
-        color: #ff6347;
+        color: #263979;
         margin: 3vw 0;
         padding: 2vw;
         width: 100%;
         background: rgba(255, 255, 255, 0);
-        border: solid 2px #ff6347;
+        border: solid 2px #263979;
         -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out;
@@ -2805,12 +2805,12 @@
     }
     .send-button:hover,
     .send-button.hover {
-        background-color: #ff6347;
+        background-color: #263979;
         cursor: pointer;
         color: #ffffff;
     }
     .send-button:active {
-        background-color: #ff6347;
+        background-color: #263979;
         color: #ffffff;
     }
     /*Form End*/
@@ -2888,7 +2888,7 @@
         right: 1vw;
         bottom: 1vw;
         background-color: #ffffff;
-        color: #ff6347;
+        color: #263979;
         z-index: 20;
     }
     .project-title-description {
