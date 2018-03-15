@@ -7,5 +7,5 @@ phases:
 artifacts:
   files:
     - index.html
-    - img/**/*
-    - work/**/*
+    - styles/main.css
+    - images/*
