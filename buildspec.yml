@@ -9,4 +9,4 @@ artifacts:
     - index.html
     - css/minilio.css
     - work/**/*
-    - img/**/*
+    
