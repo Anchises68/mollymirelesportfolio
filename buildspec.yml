@@ -10,3 +10,4 @@ artifacts:
     - css/minilio.css
     - work/**/*
     - img/*
+    - img/light-gallery/*
