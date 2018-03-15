@@ -8,3 +8,4 @@ artifacts:
   files:
     - index.html
     - css/minilio.css
+    - work/**/*
