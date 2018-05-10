@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-console.log("loaded react dom");
-
-class MessageBox extends React.Component {
+class TestimonialBox extends React.Component {
   render() {
     return (
-      <div>
-        <h1>some shit</h1>
-
+      <div class="row">
+        <div class="col-xl mb-5">
+          <div class="testimonial">
+            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." --Dr. Alex Mireles Ph.D.
+          </div>
+        </div>
       </div>
     )
   }
 }
-ReactDOM.render(<MessageBox/>, document.getElementById('app'));
+ReactDOM.render(<TestimonialBox/>, document.getElementById('testimonial'));
