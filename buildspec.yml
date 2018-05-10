@@ -4,8 +4,11 @@ phases:
   build:
     commands:
       - echo nothing to do yet
+      - npm install
+      - run webpack
 artifacts:
   files:
     - index.html
     - css/bootstrap.css
     - img/*
+    - dist/bundle.js
