@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const TESTIMONIALPATHS = [
-  'In addition to the excellent job [Molly] did planning and promoting our events, she also made our planning meetings fun with her positivity, enthusiasm and great interpersonal skills.',
+  
+  'I have found [Molly] to be efficient and reliable – a true professional.',
   'Among her strengths, Molly utilizes exceptional creativity and sound business principles.',
   'Molly is a thorough professional who gives 100% to any project she takes up.',
   'As the producer for Ask Your Doctor, Molly was instrumental in creating a an engaging and informative show on a weekly bases.',
