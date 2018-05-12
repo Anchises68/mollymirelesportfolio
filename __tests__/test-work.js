@@ -19,8 +19,8 @@ const mollyWorkBubble = [
 describe("Photo component", () => {
   let component = shallow(<Work work={mollyWorkBubble} />);
 
-  it("Should be a 'div' element", () => {
-    expect(component.type()).toEqual('div');
+  it("Should be a 'span' element", () => {
+    expect(component.type()).toEqual('span');
   });
 
   it("Should contain as many children as there are images", () => {
