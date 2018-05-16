@@ -12,7 +12,12 @@ body {
   body {
     padding-top: 56px;
   }
-}
+
+  .modal-close-btn {
+    width: 150px;
+    height: 50px;
+
+  }
 
 
 

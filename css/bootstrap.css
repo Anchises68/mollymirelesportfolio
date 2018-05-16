@@ -2363,8 +2363,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
+  color: #00000;
+  background-color: #fff;
   border-color: #007bff;
 }
 

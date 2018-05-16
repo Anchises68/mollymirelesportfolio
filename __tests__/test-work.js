@@ -12,6 +12,15 @@ const mollyWorkBubble = [
     'image': {
       'desc': "marketing image",
       'src': "img/marketingcampaign.jpg"
+
+    }
+  },
+  {
+    'name': "Events and Event Planning",
+    'href': "http://example.com",
+    'image': {
+      'desc': "event image",
+      'src': "img/events.jpg"
     }
   }
 ]
@@ -26,4 +35,15 @@ describe("Photo component", () => {
   it("Should contain as many children as there are images", () => {
     expect(component.find("WorkBubble").length).toEqual(mollyWorkBubble.length);
   })
+});
+
+describe("WorkBubble component", () => {
+  let mockOpenModalFn = jest.fn();
+  let component = shallow(<WorkBubble work={mollyWorkBubble[1]} openModal={mockOpenModalFn}/>);
+
+  it("Should call the openModal handler when clicked", () => {
+    component.find(".button-hover").simulate('click');
+    expect(mockOpenModalFn).toHaveBeenCalled();
+  });
+
 });
