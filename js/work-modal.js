@@ -7,7 +7,6 @@ class WorkModal extends React.Component {
 
     return (
       <div className={"modal-backdrop " + modalClass }>
-
         <div className="my-2">
         </div>
         <div className="container">
@@ -16,9 +15,8 @@ class WorkModal extends React.Component {
           </h1>
           <div className="row">
             <div className="col-md-6 mb-5">
-              <img className="img-fluid" src={ work.image.src1 } />
+              <img className="img-fluid" src={ work.image.src1 } alt={ work.image.desc } />
             </div>
-
             <div className="col-md-6 mb-5 mt-3">
               <h3>{ work.info }</h3>
             </div>
@@ -62,7 +60,7 @@ class WorkModal extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-5 mb-5 ">
+            <div className="col-md-5 mb-2 ">
               <img className="img-fluid" src={ work.image.src3 } />
             </div>
           </div>
@@ -75,7 +73,6 @@ class WorkModal extends React.Component {
             </div>
           </div>
         </div>
-
       </div>
     )
   };

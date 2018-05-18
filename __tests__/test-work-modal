@@ -1,9 +1,8 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { configure, shallow } from 'enzyme';
+import WorkModal from '../js/work-modal';
 import Adapter from 'enzyme-adapter-react-16';
-import Work, { WorkBubble } from '../js/work';
-import Enzyme from 'enzyme';
-Enzyme.configure({adapter: new Adapter()});
+configure({ adapter: new Adapter() });
 
 const workDetail = [
   {
@@ -47,38 +46,25 @@ const workDetail = [
       'li6': "1,348 new patients in 2014",
       'li7': ""
     }
-  },
+  }
 ];
 
-describe("Work component", () => {
-  let component = shallow(<Work work={workDetail} />);
-
-  it("Should be a 'span' element", () => {
-    expect(component.type()).toEqual('span');
-  });
-
-  it("Should contain as many children as there are images", () => {
-    expect(component.find("WorkBubble").length).toEqual(workDetail.length);
-  })
-});
-
-describe("WorkBubble component", () => {
-  let mockOpenModalFn = jest.fn();
-  let component = shallow(<WorkBubble work={workDetail[0]} openModal={mockOpenModalFn}/>);
-
+describe("WorkModal modal", () => {
+  let component = shallow(<WorkModal work={workDetail} open={false} />);
+  let openComponent = shallow(<WorkModal work={workDetail} open={true} />);
+  let anchors = component.find("button");
   let images = component.find("img");
-
-  it("Should contain a single image element", () => {
-    expect(images.length).toEqual(1);
-  });
 
   it("Should have the image src set correctly", () => {
     expect(images.getElement().props.src).toEqual(workDetail[0].image.src);
   });
 
-  it("Should call the openModal handler when clicked", () => {
-    component.find(".button-hover").simulate('click');
-    expect(mockOpenModalFn).toHaveBeenCalled();
+  it("Should contain a single 'button' element", () => {
+    expect(anchors.length).toEqual(1);
   });
 
+  it("Should have the modal class set correctly", () => {
+    expect(component.find(".modal-backdrop").hasClass("modal-closed")).toBe(true);
+    expect(openComponent.find("modal-backdrop").hasClass("modal-open")).toBe(true);
+  })
 });

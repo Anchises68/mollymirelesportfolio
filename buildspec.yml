@@ -13,4 +13,5 @@ artifacts:
     - index.html
     - css/bootstrap.css
     - img/*
+    - flowericon.ico
     - dist/bundle.js
