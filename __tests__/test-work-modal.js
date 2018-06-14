@@ -4,8 +4,8 @@ import WorkModal from '../js/work-modal';
 import Adapter from 'enzyme-adapter-react-16';
 configure({ adapter: new Adapter() });
 
-const workDetail = [
-  {
+const workDetail = {
+
     'name': "Strategic Marketing Campaigns",
     'info': "The marketing campaigns I have directed include research from a CRM resource, collaboration with graphic designers on design, and inclusion of initiatives from the public relations, social media, and web center teams, as well as advertising recommendations from a media buyer. The plans are customized based on data about my clients' services, their needs and the audiences to which they are appealing.",
     'href': "http://example.com",
@@ -47,24 +47,30 @@ const workDetail = [
       'li7': ""
     }
   }
-];
 
 describe("WorkModal modal", () => {
   let component = shallow(<WorkModal work={workDetail} open={false} />);
   let openComponent = shallow(<WorkModal work={workDetail} open={true} />);
   let anchors = component.find("button");
   let images = component.find("img");
-
-  it("Should have the image src set correctly", () => {
-    expect(images.getElement().props.src).toEqual(workDetail[0].image.src);
-  });
+  let mockCloseModalFn = jest.fn();
+  let unList = component.find("ul");
 
   it("Should contain a single 'button' element", () => {
     expect(anchors.length).toEqual(1);
   });
 
+  it("Should contain four 'ul' elements", () => {
+    expect(unList.length).toEqual(3);
+  });
+
+  it("Should contain three 'img' elements", () => {
+    expect(images.length).toEqual(3);
+  });
+
   it("Should have the modal class set correctly", () => {
     expect(component.find(".modal-backdrop").hasClass("modal-closed")).toBe(true);
-    expect(openComponent.find("modal-backdrop").hasClass("modal-open")).toBe(true);
-  })
+    expect(openComponent.find(".modal-backdrop").hasClass("modal-open")).toBe(true);
+  });
+
 });
