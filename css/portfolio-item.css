@@ -30,11 +30,16 @@ body {
   position: inherit;
   text-align: center;
   font-style: italic;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   padding-top: 2vw;
-  padding-bottom: 2vw;
 
+}
 
+.testimonial-name {
+  position: inherit;
+  text-align: center;
+  font-size: 1vw;
+  padding-top: 2vw;
 }
 
 .text-block {

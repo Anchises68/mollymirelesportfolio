@@ -11,7 +11,7 @@ export class Work extends React.Component {
     };
 
     this.openModal = this.openModal.bind(this);
-    this.closeModal = this.openModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
   }
 
   openModal(evt, work) {

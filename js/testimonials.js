@@ -1,12 +1,32 @@
 import React from 'react';
 
 const TESTIMONIALPATHS = [
+  {
+    'quote': '[Molly’s] interpersonal skills in dealing with a diverse and sometimes challenging group of individuals has been beyond reproach.',
+    'name': "~ Garry FitzGerald, MD"
+  },
+  {
+    'quote': '[Molly] cultivated positive relationships with our joint venture partners and was successful in obtaining their collateral-in-kind and financial contributions for joint marketing endeavors.',
+    'name': "~ Maria Garcia, Director, Property Management"
+  },
+  {
+    'quote': 'Molly is a thorough professional who gives 100% to any project she takes up.',
+    'name': "~ Shaun Kinsey, Senior Employer Relations Specialist"
+  },
+  {
+    'quote': 'As the producer for Ask Your Doctor, Molly was instrumental in creating a an engaging and informative show on a weekly bases.',
+    'name': "~ James Keany, MD, President"
+  },
+  {
+    'quote': 'Her passion for marketing and public relations is contagious, and I have learned so much from her about project management, promotions, and more.',
+    'name': "~ Molly Ellis, Marketing and Communications Director"
+  },
+  {
+    'quote': 'She excels with connecting with people and leading a team. Molly genuinely cares about the outcome of her work and has a focus on outcomes.',
+    'name': "~ Kathryn Stiles, Director of Marketing and Communications"
 
-  'I have found [Molly] to be efficient and reliable – a true professional.',
-  'Among her strengths, Molly utilizes exceptional creativity and sound business principles.',
-  'Molly is a thorough professional who gives 100% to any project she takes up.',
-  'As the producer for Ask Your Doctor, Molly was instrumental in creating a an engaging and informative show on a weekly bases.',
-  'She excels with connecting with people and leading a team. Molly genuinely cares about the outcome of her work and has a focus on outcomes.'
+  }
+
 ];
 
 export class TestimonialContainer extends React.Component {
@@ -39,7 +59,8 @@ export class TestimonialContainer extends React.Component {
     return (
         <div className="row">
           <div className="col-xl mb-5">
-            <div className="testimonial">"{src}"</div>
+            <div className="testimonial">"{src.quote}"</div>
+            <div className="testimonial-name">{src.name}</div>
           </div>
         </div>
         )
