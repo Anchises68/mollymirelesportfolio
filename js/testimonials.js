@@ -59,8 +59,7 @@ export class TestimonialContainer extends React.Component {
     return (
         <div className="row">
           <div className="col-xl mb-5">
-            <div className="testimonial">"{src.quote}"</div>
-            <div className="testimonial-name">{src.name}</div>
+            <div className="testimonial">"{src.quote}"<small className="testimonial-name">{src.name}</small></div>
           </div>
         </div>
         )

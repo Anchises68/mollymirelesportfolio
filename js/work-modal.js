@@ -18,7 +18,7 @@ class WorkModal extends React.Component {
               <img className="img-fluid" src={ work.image.src1 } alt={ work.image.desc } />
             </div>
             <div className="col-md-6 mb-5 mt-3">
-              <h3>{ work.info }</h3>
+              <h4>{ work.info }</h4>
             </div>
           </div>
           <div className="row modal-text">

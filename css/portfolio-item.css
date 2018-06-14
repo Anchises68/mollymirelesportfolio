@@ -37,6 +37,7 @@ body {
 
 .testimonial-name {
   position: inherit;
+  font-style: normal;
   text-align: center;
   font-size: 1vw;
   padding-top: 2vw;
