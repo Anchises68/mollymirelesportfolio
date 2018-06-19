@@ -24,7 +24,7 @@ class WorkModal extends React.Component {
           <div className="row modal-text">
             <div className="col-md-3 col-sm-6 mb-2">
               <h4>{ work.column_1.h4 }</h4>
-              <ul>
+              <ul className="remove-bullets">
                 <li>{ work.column_1.li1 }</li>
                 <li>{ work.column_1.li2 }</li>
                 <li>{ work.column_1.li3 }</li>
@@ -34,9 +34,9 @@ class WorkModal extends React.Component {
                 <li>{ work.column_1.li7 }</li>
               </ul>
             </div>
-            <div className="col-md-3 col-sm-6 mb-2">
+            <div className="col-md-3 col-sm-6 mb-2 remove-bullets">
               <h4>{ work.column_2.h4 }</h4>
-              <ul>
+              <ul className="remove-bullets">
                 <li>{ work.column_2.li1 }</li>
                 <li>{ work.column_2.li2 }</li>
                 <li>{ work.column_2.li3 }</li>
@@ -44,9 +44,9 @@ class WorkModal extends React.Component {
                 <li>{ work.column_2.li5 }</li>
               </ul>
             </div>
-            <div className="col-md-3 col-sm-6 mb-2">
+            <div className="col-md-3 col-sm-6 mb-2 remove-bullets">
               <h4>{ work.column_3.h4 }</h4>
-              <ul>
+              <ul className="remove-bullets">
                 <li>{ work.column_3.li1 }</li>
                 <li>{ work.column_3.li2 }</li>
                 <li>{ work.column_3.li3 }</li>

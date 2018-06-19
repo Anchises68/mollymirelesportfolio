@@ -19,7 +19,9 @@ body {
 
   }
 
-
+.remove-bullets {
+  list-style-type: none;
+}
 
 .logo {
   width: 250px;

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Work from './work';
 import TestimonialContainer from './testimonials';
-import Menu from './menu';
+import Menu from './navbar-components/menu';
 
 const workDetail = [
   {
@@ -179,6 +179,7 @@ class Main extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <Menu />
         <Work work={workDetail}/>
         <TestimonialContainer />
       </React.Fragment>
