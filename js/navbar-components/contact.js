@@ -2,7 +2,7 @@ import React from 'react'
 import Back from './back'
 
 const Contact = ({ lastLocation }) => (
-  <div className={"modal-backdrop modal--open"}>
+  <div className={"modal-background modal--open"}>
     <div className="my-2">
     </div>
     <div className="container">

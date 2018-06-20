@@ -69,8 +69,8 @@ describe("WorkModal modal", () => {
   });
 
   it("Should have the modal class set correctly", () => {
-    expect(component.find(".modal-backdrop").hasClass("modal-closed")).toBe(true);
-    expect(openComponent.find(".modal-backdrop").hasClass("modal-open")).toBe(true);
+    expect(component.find(".modal-background").hasClass("modal-closed")).toBe(true);
+    expect(openComponent.find(".modal-background").hasClass("modal-open")).toBe(true);
   });
 
 });
