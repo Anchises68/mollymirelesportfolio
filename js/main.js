@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from "react-dom";
 import ReactDOM from 'react-dom';
 import Navigation from './menu';
-import { BrowserRouter as Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 
 
 const Main = () => (

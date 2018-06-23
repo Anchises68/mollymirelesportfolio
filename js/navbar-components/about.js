@@ -2,11 +2,10 @@ import React from 'react'
 import Back from './back'
 
 const About = ({ lastLocation }) => (
-    <div className={"modal-background modal--open"}>
-      <div className="my-2">
-      </div>
-      <div className="container">
-        <h1 class="my-4 modal-header">
+
+    <div className="modal-open modal-content">
+      <div className="container modal-body mb-2">
+        <h1 class="my-4 modal-header">About me
           <small>Molly Mireles</small>
         </h1>
         <div className="row">
@@ -20,8 +19,8 @@ const About = ({ lastLocation }) => (
             I am an enthusiastic and experienced leader, as well as a reliable team player. I strive to deliver the best outcomes for my clients and the organization for which I work.</h4>
           </div>
         </div>
+        <Back/>
       </div>
-      <Back/>
     </div>
 );
 

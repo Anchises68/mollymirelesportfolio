@@ -3,7 +3,7 @@ import React from 'react';
 const TESTIMONIALPATHS = [
   {
     'quote': '[Molly’s] interpersonal skills in dealing with a diverse and sometimes challenging group of individuals has been beyond reproach.',
-    'name': " ~ Garry FitzGerald, MD"
+    'name': "~ Garry FitzGerald, MD"
   },
   {
     'quote': '[Molly] cultivated positive relationships with our joint venture partners and was successful in obtaining their collateral-in-kind and financial contributions for joint marketing endeavors.',
@@ -23,7 +23,7 @@ const TESTIMONIALPATHS = [
   },
   {
     'quote': 'She excels with connecting with people and leading a team. Molly genuinely cares about the outcome of her work and has a focus on outcomes.',
-    'name': " ~ Kathryn Stiles, Director of Marketing and Communications"
+    'name': "~ Kathryn Stiles, Director of Marketing and Communications"
 
   }
 
@@ -47,7 +47,7 @@ export class TestimonialContainer extends React.Component {
     }
 
   componentDidMount() {
-    this.interval = setInterval(this.nextQuote, 5000);
+    this.interval = setInterval(this.nextQuote, 10000);
     }
 
   componentWillUnmount() {
@@ -60,7 +60,7 @@ export class TestimonialContainer extends React.Component {
         <div className="row">
           <div className="col-xl mb-5">
             <div className="testimonial">"{src.quote}"
-              <small className="testimonial-name">   { src.name }</small>
+              <small className="testimonial-name">{ src.name }</small>
             </div>
           </div>
         </div>
