@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My Contact Form Microservice</title>
-  <style>
-    /* It's not pretty, but it'll do :) */
-    input,
-    textarea {
-      display: block;
-      margin: 20px;
-    }
-  </style>
-</head>
+import React from 'react'
 
-<body>
-  <form id="serverless-contact-form">
-    <input type="text" name="email" placeholder="Email Address" class="form-email">
-    <input type="text" name="subject" placeholder="Subject" class="form-subject">
-    <textarea rows="5" cols="40" name="message" placeholder="Your message here..." class="form-message"></textarea>
-    <input type="submit" name="submit" value="Submit" class="form-submit">
-  </form>
-
-  <script type="text/javascript">
-    // Adds an event listener to our form. When the form is submitted, it will send data to our Lambda function, which in turn, will send us an email.
-    document.getElementById('serverless-contact-form').addEventListener('submit', sendDataToLambda);
-
-    // Now for the good stuff. This is the function that will send our data to AWS.
-    function sendDataToLambda(e) {
+function sendDataToLambda(e) {
       e.preventDefault();
 
       // Gets the values of each field in our form. This is the data we'll send to our Lambda function.
@@ -56,8 +31,15 @@
         // This is where you can handle errors. This is just an example, so we won't cover that.
         .then(response => console.log(response))
         .catch(err => console.log(err));
-    }
-  </script>
-</body>
+    };
 
-</html>
+const ContactForm = () => {
+  <form id="serverless-contact-form">
+    <input type="text" name="email" placeholder="Email Address" className="form-email"/>
+    <input type="text" name="subject" placeholder="Subject" className="form-subject"/>
+    <textarea style={{display:'block', margin:'20px'}} rows='5' cols='40'  name="message" placeholder="Your message here..." className="form-message"></textarea>
+    <input type="submit" name="submit" value="Submit" className="form-submit"/>
+  </form>
+};
+
+export default ContactForm

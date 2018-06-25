@@ -98,3 +98,14 @@ body {
 .tint:hover:before { background: none; }
 
 .t2:before { background: rgba(139,210,242, 0.2); }
+
+.errors {
+    color: red;
+    display: none;
+}
+.thanks, .sending {
+    display: none;
+}
+.grecaptcha-badge {
+    float: right;
+}
