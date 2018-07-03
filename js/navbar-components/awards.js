@@ -2,7 +2,7 @@ import React from 'react'
 import Back from './back'
 
 const Awards = ({ lastLocation }) => (
-    <div className="modal-open modal-content">
+    <div className="modal-open">
       <div className="container modal-body mb-2">
         <h1 class="my-4 modal-header">Accomplishments and Awards
           <small>Molly Mireles</small>

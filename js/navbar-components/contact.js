@@ -99,7 +99,7 @@ errorClass(error) {
 }
 
 const Contact = ({ lastLocation }) => (
-    <div className="modal-open modal-content">
+    <div className="modal-open">
 
       <div className="container modal-body mb-2">
         <h1 className="my-4 modal-header">Contact

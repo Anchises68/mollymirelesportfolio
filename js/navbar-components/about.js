@@ -3,7 +3,7 @@ import Back from './back'
 
 const About = ({ lastLocation }) => (
 
-    <div className="modal-open modal-content">
+    <div className="modal-open">
       <div className="container modal-body mb-5 mt-3">
         <h1 class="my-4 modal-header">About me
           <small>Molly Mireles</small>
