@@ -47,7 +47,7 @@ export class TestimonialContainer extends React.Component {
     }
 
   componentDidMount() {
-    this.interval = setInterval(this.nextQuote, 10000);
+    this.interval = setInterval(this.nextQuote, 5000);
     }
 
   componentWillUnmount() {
@@ -57,7 +57,7 @@ export class TestimonialContainer extends React.Component {
   render() {
     let src = TESTIMONIALPATHS[this.state.currentQuote];
     return (
-        <div className="row">
+        <div className="row position-relative">
           <div className="col-xl mb-5">
             <div className="testimonial">"{src.quote}"
               <small className="testimonial-name">{ src.name }</small>

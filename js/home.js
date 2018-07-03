@@ -175,7 +175,7 @@ const workDetail = [
 ];
 
 const Home = () => (
-
+<section>
   <div className="container">
     <h1 className="my-4">Mireles
       <small> Communications</small>
@@ -188,7 +188,7 @@ const Home = () => (
 
       <div className="col-md-4">
         <h3 className="my-3"></h3>
-        <img src="img/flowerlogo.png" className="logo"/>
+        <img src="img/flowerlogo-small.png" className="logo"/>
         <p></p>
         <h1 className="my-3">Molly Mireles</h1>
         <ul className="remove-bullets">
@@ -198,13 +198,14 @@ const Home = () => (
         </ul>
       </div>
     </div>
-
-    <Work work={workDetail}/>
-    <TestimonialContainer />
-
-
-
+    <div className="container mb-3">
+      <Work work={workDetail}/>
+    </div>
+    <div className="container mb-5">
+      <TestimonialContainer />
+    </div>
   </div>
+</section>
 );
 
 export default Home

@@ -61,24 +61,24 @@ body {
 }
 
 .logo {
-  width: 250px;
-  height: 250px;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
 
 .testimonial {
-  position: inherit;
   text-align: center;
   font-style: italic;
-  font-size: 1.1vw;
+  font-size: 1.5vw;
   padding-bottom: 2vw;
 
 }
 
 .testimonial-name {
-  position: inherit;
+
   font-style: normal;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.3vw;
   padding-top: 2vw;
 }
 
