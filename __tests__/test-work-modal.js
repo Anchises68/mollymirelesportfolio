@@ -68,9 +68,4 @@ describe("WorkModal modal", () => {
     expect(images.length).toEqual(3);
   });
 
-  it("Should have the modal class set correctly", () => {
-    expect(component.find(".modal-background").hasClass("modal-closed")).toBe(true);
-    expect(openComponent.find(".modal-background").hasClass("modal-open")).toBe(true);
-  });
-
 });
