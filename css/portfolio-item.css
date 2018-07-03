@@ -41,8 +41,11 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
   background-color: #c5e2f9;
+
 }
 
 .modal-backdrop.fade {
@@ -67,7 +70,7 @@ body {
   text-align: center;
   font-style: italic;
   font-size: 1.1vw;
-  padding-top: 2vw;
+  padding-bottom: 2vw;
 
 }
 

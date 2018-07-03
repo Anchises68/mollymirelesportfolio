@@ -175,6 +175,7 @@ const workDetail = [
 ];
 
 const Home = () => (
+
   <div className="container">
     <h1 className="my-4">Mireles
       <small> Communications</small>
@@ -201,7 +202,8 @@ const Home = () => (
     <Work work={workDetail}/>
     <TestimonialContainer />
 
-    
+
+
   </div>
 );
 
