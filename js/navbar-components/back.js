@@ -3,7 +3,9 @@ import { withRouter } from "react-router-dom";
 
 const Back = ({ history }) =>
   history.length > 1 && (
-    <button className="button modal-close-btn" onClick={history.goBack}>Go Back</button>
+    <button type="button" className="close" aria-label="Close" onClick={history.goBack}>
+      <span aria-hidden="true">&times;</span>
+    </button>
   );
 
 export default withRouter(Back);

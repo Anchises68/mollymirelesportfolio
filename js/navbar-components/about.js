@@ -8,6 +8,7 @@ const About = ({ lastLocation }) => (
         <h1 class="my-4 modal-header">About me
           <small>Molly Mireles</small>
         </h1>
+        <Back/>
         <div className="row">
           <div className="col-md-6 mb-5">
             <img className="img-fluid" src="img/MollyMireles.jpg" alt="Molly Mireles Image"/>
@@ -18,9 +19,11 @@ const About = ({ lastLocation }) => (
               My career goals include continuing to learn and grow in the areas of marketing, public relations and communications. In 2014, I took a Fundamentals of Public Relations course at UCLA Extension with instructor Jeff Duclos and earned an A+ in the class. The final project of the class was to present a promotional plan for an app for an actual client, LA Metro. My team elected me to lead the presentation, resulting in LA Metro's choice of our proposal.
             I am an enthusiastic and experienced leader, as well as a reliable team player. I strive to deliver the best outcomes for my clients and the organization for which I work.</h5>
           </div>
+          
         </div>
-        <Back/>
+
       </div>
+
     </div>
 );
 

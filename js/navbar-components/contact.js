@@ -75,7 +75,7 @@ errorClass(error) {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit} >
         <div className="panel panel-default">
 
         </div>
@@ -101,19 +101,23 @@ errorClass(error) {
 const Contact = ({ lastLocation }) => (
     <div className="modal-open">
 
-      <div className="container modal-body mb-2">
+      <div className="container modal-body mb-5 mt-3">
         <h1 className="my-4 modal-header">Contact
           <small>Molly Mireles</small>
         </h1>
-        <div className="row">
-          <div className="col-md-6 mb-2 mt-3">
+        <Back/>
+        <div className="row justify-content-center">
 
-            <p className="errors">Please fill in all fields.</p>
+          <div className="col-md-6 mb-2 mt-3 ">
+            <h5 className="mb-4">Feel free to contact me.  I will respond as soon as possible.</h5>
+
             <ContactForm />
           </div>
+
         </div>
-        <Back/>
+
       </div>
+
     </div>
   );
 

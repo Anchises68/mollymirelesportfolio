@@ -3,11 +3,12 @@ import Back from './back'
 
 const Awards = ({ lastLocation }) => (
     <div className="modal-open">
-      <div className="container modal-body mb-2">
+      <div className="container modal-body mb-5 mt-3">
         <h1 class="my-4 modal-header">Accomplishments and Awards
           <small>Molly Mireles</small>
         </h1>
-        <div className="row mt-1">
+        <Back/>
+        <div className="row">
           <div className="col-md-12"><h2>Skills & Expertise</h2>
             <ul>
               <li>I create and coordinate marketing and communications plans for my clients, including a medical plaza in Beaumont, California, 23 outpatient physician groups (primary care and medical specialties with 67 subspecialties) and 968 physicians.</li><br/>
@@ -32,9 +33,7 @@ const Awards = ({ lastLocation }) => (
               <li>Public Relations Society of America Award</li><br/>
             </ul>
           </div>
-          <div className="col-md-12">
-            <Back/>
-          </div>
+          
         </div>
       </div>
     </div>
