@@ -12,6 +12,7 @@ class WorkModal extends React.Component {
           <h1 class="my-4 modal-header">{ work.name }
             <small>Molly Mireles</small>
           </h1>
+          <button type="button" className="close" aria-label="Close" onClick={ this.props.closeModal }><span aria-hidden="true">&#x2573;</span></button>
           <div className="row">
             <div className="col-md-6 mb-5">
               <img className="img-fluid" src={ work.image.src1 } alt={ work.image.desc } />
@@ -69,7 +70,7 @@ class WorkModal extends React.Component {
         <div className="container ">
           <div className="row justify-content-center">
             <div className="col-md-6 mt-5 ">
-              <button className="btn btn-light modal-close-btn" onClick={ this.props.closeModal }>Close</button>
+
             </div>
 
           </div>
