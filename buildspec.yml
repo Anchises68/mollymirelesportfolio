@@ -12,7 +12,7 @@ artifacts:
   files:
     - index.html
     - css/bootstrap.css
-    - css/portfolio.css
+    - css/*
     - img/*
     - flowericon.ico
     - dist/bundle.js
