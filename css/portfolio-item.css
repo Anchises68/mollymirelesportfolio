@@ -13,27 +13,13 @@ body {
     padding-top: 56px;
   }
 
+
+
 .modal-close-btn {
     width: 150px;
     height: 50px;
 }
 
-.messageBox {
-  border: 1px solid;
-  margin: 1em;
-  padding: 2em;
-}
-.error {
-  border-color: red;
-  background-color: #eebbbb;
-}
-.success {
-  border-color: blue;
-  background-color: #bbbbee;
-}
-.hidden {
-  display: none;
-}
 
 .modal-background {
   position: fixed;
@@ -86,7 +72,7 @@ body {
     position: inherit;
     bottom: 20px;
     right: 20px;
-    background-color: #3b68ad;
+    background-color: #424592;
     color: white;
     padding: 10px;
     font-size: 1.2vw;
@@ -128,6 +114,11 @@ body {
 }
 .grecaptcha-badge {
     float: right;
+}
+
+.custom-color {
+  background-color: #424592 !important;
+  color: #fff
 }
 
 .panel {

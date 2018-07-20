@@ -33,7 +33,7 @@ const Awards = ({ lastLocation }) => (
               <li>Public Relations Society of America Award</li><br/>
             </ul>
           </div>
-          
+
         </div>
       </div>
     </div>
