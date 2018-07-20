@@ -2,7 +2,6 @@ import React from 'react'
 import Work from './work'
 import TestimonialContainer from './testimonials'
 
-
 const workDetail = [
   {
     'name': "Strategic Marketing Campaigns",
@@ -60,32 +59,18 @@ const workDetail = [
     'column_1': {
       'h4': "2015 Fundraising Event",
       'li1': "For this – our most successful fundraiser to date – I initiated contact with the speaker, professional surfer Bethany Hamilton, and coordinated the speaker contract. As lead of the planning committee, I directed the design for the pieces and the promotional campaign. I was also the speaker liaison the day of the event.",
-      'li2': "",
-      'li3': "",
-      'li4': "",
-      'li5': "",
-      'li6': "",
-      'li7': ""
+      'li2': ""
     },
     'column_2': {
       'h4': "2015 Community Health Fair",
       'li1': "I led the planning committee and directed event promotion for the community health fair at Highland Springs Medical Plaza, which featured 14 health screenings and 36 exhibitors.",
-      'li2': "",
-      'li3': "",
-      'li4': "",
-      'li5': "",
-      'li6': "",
-      'li7': ""
+      'li2': ""
     },
     'column_3': {
       'h4': "Sixth Annual Food Sharing Event",
       'li1': "I led the planning committee for the sixth annual food distribution on Friday, November 20, 2016 at Highland Springs Medical Plaza in Beaumont, CA. For this event, we partnered with Side by Side Humanitarian Food Bank to provide underserved families with groceries for the Thanksgiving holiday.",
-      'li2': "",
-      'li3': "",
-      'li4': "",
-      'li5': "",
-      'li6': "",
-      'li7': ""
+      'li2': "We provided groceries to 610 families. The local newspaper, the Record Gazette, featured the event on the front page. I wrote a press release about the event, which was picked up by Channel 7 News. I liaised with the Channel 7 reporter and arranged for an interview with the Highland Springs Medical Plaza administrator.",
+      'li3': ""
     }
   },
   {
@@ -98,36 +83,6 @@ const workDetail = [
       'src1': "img/communication1.png",
       'src2': "",
       'src3': ""
-    },
-    'column_1': {
-      'h4': "",
-      'li1': "",
-      'li2': "",
-      'li3': "",
-      'li4': "",
-      'li5': "",
-      'li6': "",
-      'li7': ""
-    },
-    'column_2': {
-      'h4': "",
-      'li1': "",
-      'li2': "",
-      'li3': "",
-      'li4': "",
-      'li5': "",
-      'li6': "",
-      'li7': ""
-    },
-    'column_3': {
-      'h4': "",
-      'li1': "",
-      'li2': "",
-      'li3': "",
-      'li4': "",
-      'li5': "",
-      'li6': "",
-      'li7': ""
     }
   },
   {
@@ -140,36 +95,6 @@ const workDetail = [
       'src1': "img/socialmedia1.png",
       'src2': "",
       'src3': "img/socialmedia2.png"
-    },
-    'column_1': {
-      'h4': "",
-      'li1': "",
-      'li2': "",
-      'li3': "",
-      'li4': "",
-      'li5': "",
-      'li6': "",
-      'li7': ""
-    },
-    'column_2': {
-      'h4': "",
-      'li1': "",
-      'li2': "",
-      'li3': "",
-      'li4': "",
-      'li5': "",
-      'li6': "",
-      'li7': ""
-    },
-    'column_3': {
-      'h4': "",
-      'li1': "",
-      'li2': "",
-      'li3': "",
-      'li4': "",
-      'li5': "",
-      'li6': "",
-      'li7': ""
     }
   }
 ];

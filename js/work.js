@@ -59,7 +59,7 @@ class WorkBubble extends React.Component {
             <div className="tint t2">
               <img className="img-fluid" src={ work.image.src } alt={work.image.desc } />
             </div>
-            <div className="text-block">{ work.name }</div>
+            {/*<div className="text-block">{ work.name }</div>*/}
             </a>
           </div>
         </div>

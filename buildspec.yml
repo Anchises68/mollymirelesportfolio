@@ -11,7 +11,7 @@ phases:
 artifacts:
   files:
     - index.html
-    - css/bootstrap.css
+    - css/*
     - img/*
     - flowericon.ico
     - dist/bundle.js

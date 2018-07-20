@@ -5,6 +5,7 @@ class WorkModal extends React.Component {
     let work = this.props.work;
     let modalClass = this.props.open ? 'modal-open' : 'modal-closed';
 
+
     return (
       <div className={" " + modalClass}>
 
