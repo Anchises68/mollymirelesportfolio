@@ -6,9 +6,9 @@ class WorkModal extends React.Component {
     let modalClass = this.props.open ? 'modal-open' : 'modal-closed';
 
     return (
-      <div className={"modal-background " + modalClass}>
+      <div className={" " + modalClass}>
 
-        <div className="container modal-body mt-5">
+        <div className="container modal-backdrop mt-5">
           <h1 class="my-4 modal-header">{ work.name }
             <small>Molly Mireles</small>
           </h1>
