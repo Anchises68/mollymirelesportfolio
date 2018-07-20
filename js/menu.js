@@ -19,7 +19,7 @@ const RoutePath = () => (
 
 const Menu = () => (
   <header>
-    <nav className="navbar navbar-expand-lg custom-color fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#"></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,20 +28,20 @@ const Menu = () => (
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link"><Link to='/'>Home</Link>
+              <a className="nav-link"><Link to='/' className="link">Home</Link>
                 <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link"><Link to='/about'>About</Link></a>
+              <a className="nav-link"><Link to='/about' className="link">About</Link></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link"><Link to='/awards'>Awards</Link> </a>
+              <a className="nav-link"><Link to='/awards' className="link">Awards</Link> </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link"><Link to='contact'>Contact</Link></a>
+              <a className="nav-link"><Link to='contact' className="link">Contact</Link></a>
             </li>
-            
+
           </ul>
         </div>
       </div>
