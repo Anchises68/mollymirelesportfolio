@@ -8,9 +8,7 @@ const WorkInfo = [
     'image': {
       'desc': "marketing image",
       'src': "img/marketingcampaign.jpg",
-      'src1': "img/campaign3.png",
-      'src2': "img/campaign2.png",
-      'src3': ""
+      'src1': "img/campaign3.png"
     },
 
     'column_1': {
@@ -59,9 +57,7 @@ const WorkInfo = [
     'image': {
       'desc': "event image",
       'src': "img/events.jpg",
-      'src1': "img/events1.png",
-      'src2': "img/events2.png",
-      'src3': ""
+      'src1': "img/events1.png"
     },
     'column_1': {
       'h4': "2015 Fundraising Event",
@@ -93,9 +89,7 @@ const WorkInfo = [
     'image': {
       'desc': "communications image",
       'src': "img/communications.jpg",
-      'src1': "img/communication1.png",
-      'src2': "",
-      'src3': ""
+      'src1': "img/communication1.png"
     },
     'column_1': {
       'h4': "Radio",
@@ -126,9 +120,7 @@ const WorkInfo = [
     'image': {
       'desc': "social media image",
       'src': "img/socialmedia.jpg",
-      'src1': "img/socialmedia1.png",
-      'src2': "",
-      'src3': "img/socialmedia2.png"
+      'src1': "img/socialmedia1.png"
     },
     'column_1': {
       'h4': "Facebook",
