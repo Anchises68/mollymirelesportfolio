@@ -1,5 +1,6 @@
-import React from 'react';
-import WorkModal from './work-modal';
+import React from 'react'
+import WorkModal from './work-modal'
+import WorkInfo from './work-info'
 
 export class Work extends React.Component {
   constructor(props) {

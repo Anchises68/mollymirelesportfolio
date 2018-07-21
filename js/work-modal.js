@@ -4,6 +4,76 @@ class WorkModal extends React.Component {
   render() {
     let work = this.props.work;
     let modalClass = this.props.open ? 'modal-open' : 'modal-closed';
+    let renderColumn1 = work.column_1.list.map((renderColumn1) => <li key={renderColumn1.toString()}>{renderColumn1}</li>);
+    let renderColumn2 = work.column_2.list.map((renderColumn2) => <li key={renderColumn2.toString()}>{renderColumn2}</li>);
+    let renderColumn3 = work.column_3.list.map((renderColumn3) => <li key={renderColumn3.toString()}>{renderColumn3}</li>);
+
+
+    return (
+      <div className={" " + modalClass}>
+        
+        <div className="container modal-backdrop mt-5">
+          <h1 class="my-4 modal-header">{ work.name }
+            <small>Molly Mireles</small>
+          </h1>
+          <button  type="button" className="close" aria-label="Close" onClick={ this.props.closeModal }><span aria-hidden="true">&#x2573;</span></button>
+          <div className="row">
+            <div className="col-md-6 mb-5">
+              <img className="img-fluid" src={ work.image.src1 } alt={ work.image.desc } />
+            </div>
+            <div className="col-md-6 mb-5 mt-3">
+              <h5>{ work.info }</h5>
+            </div>
+          </div>
+          <div className="row modal-text">
+            <div className="col-md-3 col-sm-6 mb-2">
+              <h5>{ work.column_1.h4 }</h5>
+              <ul className="remove-bullets">
+                {renderColumn1}
+              </ul>
+            </div>
+            <div className="col-md-3 col-sm-6 mb-2 remove-bullets">
+              <h5>{ work.column_2.h4 }</h5>
+              <ul className="remove-bullets">
+                {renderColumn2}
+              </ul>
+            </div>
+            <div className="col-md-3 col-sm-6 mb-2 remove-bullets">
+              <h5>{ work.column_3.h4 }</h5>
+              <ul className="remove-bullets">
+                {renderColumn3}
+              </ul>
+            </div>
+            <div className="col-md-3-sm-6 mb-2">
+              <img className="img-fluid" src={ work.image.src2 } />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-5 mb-2 ">
+              <img className="img-fluid" src={ work.image.src3 } />
+            </div>
+          </div>
+
+
+        </div>
+        <div className="container ">
+          <div className="row justify-content-center">
+            <div className="col-md-6 mt-5 ">
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    )
+  };
+};
+
+class OorkModal extends React.Component {
+  render() {
+    let work = this.props.work;
+    let modalClass = this.props.open ? 'modal-open' : 'modal-closed';
 
 
     return (
